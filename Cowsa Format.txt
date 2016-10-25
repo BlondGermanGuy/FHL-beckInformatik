@@ -1,0 +1,55 @@
+N = String.format("%"+N.length() + "s","").replaceAll(" ", "*");
+
+Ändern den String N in der Länge des Strings zu *
+
+http://openbook.rheinwerk-verlag.de/javainsel9/javainsel_04_010.htm
+
+Die Klasse String stellt mit der statischen Methode format() eine Möglichkeit bereit, Zeichenketten nach einer Vorgabe zu formatieren:
+
+String s = String.format( "Hallo %s. Es gab einen Anruf von %s.", "Chris", "Joy" );
+System.out.println( s );    // Hallo Chris. Es gab einen Anruf von Joy.
+Der erste übergebene String nennt sich Format-String. Er enthält neben auszugebenden Zeichen weitere so genannte Format-Spezifizierer, 
+die dem Formatierer darüber Auskunft geben, wie er das Argument formatieren soll. %s steht für eine unformatierte Ausgabe eines Strings. 
+Nach dem Format-String folgt ein Varags (oder alternativ das Feld direkt) mit den Werten, auf die sich die Format-Spezifizierer beziehen.
+
+Spezifizierer	Steht für ...	Spezifizierer	Steht für ...
+%n
+
+neue Zeile
+
+%b
+
+Boolean
+
+%%
+
+Prozentzeichen
+
+%s
+
+String
+
+%c
+
+Unicode-Zeichen
+
+%d
+
+Dezimalzahl
+
+%x
+
+Hexadezimalschreibweise
+
+%t
+
+Datum und Zeit
+
+%f
+
+Fließkommazahl
+
+%e
+
+wissenschaftliche Notation
+
