@@ -1,2 +1,2 @@
-# FHL-beckInformatik
+# FHLuebeckInformatik
 ProgI Aufgaben
