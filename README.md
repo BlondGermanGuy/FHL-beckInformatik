@@ -1,2 +1,1 @@
-# FHLuebeckInformatik
-ProgI Aufgaben
+# LuebeckInformatik
